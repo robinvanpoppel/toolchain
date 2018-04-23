@@ -22,6 +22,7 @@ choco install javaruntime
 choco install soapui 
 choco install resharper
 choco install firacode
+choco install VisualStudioCode
 
 REM manual choco install visualstudio
 REM manual choco install notepadplusplus.install
