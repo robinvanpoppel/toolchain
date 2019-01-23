@@ -24,7 +24,8 @@ choco install resharper
 choco install firacode
 choco install VisualStudioCode
 choco install linqpad
-choco install markdownmonster
+choco install typora
+choco install cmder
 
 REM manual choco install visualstudio
 REM manual choco install notepadplusplus.install
