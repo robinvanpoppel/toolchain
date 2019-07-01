@@ -24,4 +24,4 @@ REM manual choco install visualstudio
 REM manual choco install notepadplusplus.install
 REM manual	visual studio 	also setup fira code in visual studio
 REM manual	resharper		also install key
-REM manual  setup WIN + N as New Window in Everything
+REM manual	setup WIN + N as New Window in Everything
