@@ -20,8 +20,8 @@ choco install VisualStudioCode
 choco install linqpad
 choco install cmder
 
-REM manual choco install visualstudio
-REM manual choco install notepadplusplus.install
-REM manual	visual studio 	also setup fira code in visual studio
-REM manual	resharper		also install key
-REM manual	setup WIN + N as New Window in Everything
+npm install --global git-branch-select
+
+REM manual setup fira code in visual studio / visual studio code
+REM manual resharper		also install key
+REM manual setup WIN + N as New Window in Everything
