@@ -1,8 +1,8 @@
-
 [alias]
 	co = checkout
 	cob = checkout -b
 	coo = !git fetch && git checkout
+	bs = branch-select
 	br = branch
 	brd = branch -d
 	brD = branch -D
@@ -17,23 +17,22 @@
 	last = 'log -1 HEAD'
 	master = !git checkout master && git pull origin 
 	po = push origin
-	pod = push origin dev
-	pos = push origin staging
 	pom = push origin master
 	poh = push origin HEAD
-	pogm = !git push origin gh-pages && git checkout master && git pull origin master && git rebase gh-pages && git push origin master && git checkout gh-pages
-	pomg = !git push origin master && git checkout gh-pages && git pull origin gh-pages && git rebase master && git push origin gh-pages && git checkout master
 	plo = pull origin
-	plod = pull origin dev
-	plos = pull origin staging
 	plom = pull origin master
 	ploh = pull origin HEAD
 	rb = !git for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
 	rom = checkout origin/master --
-	set-upstream = '!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`'
+	su = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 	unstage = reset --soft HEAD^
 	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-	f = "!git ls-files | grep -i"
+	f = !git ls-files | grep -i
 	gr = grep -Ii
-	la = "!git config -l | grep alias | cut -c 7-"
+	la = !git config -l | grep alias | cut -c 7-
+
+[push]
+	default = simple
+[branch]
+	autosetupmerge = always
