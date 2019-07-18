@@ -25,3 +25,7 @@ npm install --global git-branch-select
 REM manual setup fira code in visual studio / visual studio code
 REM manual resharper		also install key
 REM manual setup WIN + N as New Window in Everything
+
+REM manual
+REM Visit nuget.org/downloads and select NuGet 3.3 or higher (2.8.6 is not compatible with Mono). The latest version is always recommended, and 4.1.0+ is required to publish packages to nuget.org.
+REM Download nuget.exe, create a tools folder, and add it to the PATH environment variable to use the CLI tool from anywhere.
