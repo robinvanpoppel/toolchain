@@ -1,4 +1,5 @@
 @echo off
+REM checkout scoop: https://github.com/lukesampson/scoop
 choco feature enable -n allowGlobalConfirmation
 
 choco install git.install
