@@ -1,5 +1,6 @@
 @echo off
 REM checkout scoop: https://github.com/lukesampson/scoop
+REM Install powershell https://chocolatey.org/docs/installation
 choco feature enable -n allowGlobalConfirmation
 
 choco install git.install
