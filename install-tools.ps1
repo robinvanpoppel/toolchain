@@ -21,7 +21,7 @@ choco install firacode
 choco install VisualStudioCode
 choco install linqpad
 choco install cmder
-
+choco install nodejs
 npm install --global git-branch-select
 
 REM manual setup fira code in visual studio / visual studio code
