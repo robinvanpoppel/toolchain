@@ -13,3 +13,10 @@
 * Install extension `CodeMaid_v11.0.183.vsix`
 * Install extension `File_Icons_v2.7.230.vsix`
 * Install extension `File_Nesting_v2.6.85.vsix`
+* Install extension `Code Cleanup on Save`
+* Install extension `RemoveTrailingWhitespaces`
+* Install extension `Trailing Whitespace Visualizer`
+* Install extension `Clr Heap Allocation Analyzer`
+* Install extension `Roslynator`
+* Install extension `BuildVision`
+* Install extension `Show Missing Files`
